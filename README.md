@@ -1,8 +1,7 @@
 🛒 Point of Sale (POS) Transaction Portal
-
 A Modern, Scalable Microservices Architecture Built on .NET 8
-￼ 0 “LARGE”
-￼ 3 “LARGE”
+￼
+￼
 Welcome to a production-grade Point of Sale transaction portal designed for high throughput, resilience, and security in retail environments. This system leverages a microservices architecture to enable independent scaling, deployment, and maintenance of core functionalities such as inventory management, payment processing, order fulfillment, and reporting.
 As a Senior Technical Lead and Solutions Architect, this project reflects best practices in cloud-native development, observability, and enterprise security.
 
@@ -16,7 +15,7 @@ As a Senior Technical Lead and Solutions Architect, this project reflects best p
 
 🏗️ Architecture Overview
 The system is decomposed into bounded-context microservices, orchestrated on Kubernetes for scalability and resilience.
-￼ 4 “LARGE”
+￼
 Core Microservices (Examples)
 	•	POS Service – Transaction orchestration & checkout
 	•	Inventory Service – Stock management & reservations
@@ -71,21 +70,21 @@ Rich POS UI
 Security is baked in from day one – following Defense in Depth principles.
 Authentication & Authorization
 	•	OAuth 2.0 / OpenID Connect handled by Keycloak 🔑
-￼ 6 “LARGE”
+￼
 	•	JWT tokens for stateless API authentication
 	•	Fine-grained RBAC & ABAC policies
 Application Security
 	•	Adherence to OWASP Top 10 and CWE/SANS Top 25
+￼
 	•	Input validation, output encoding, dependency scanning (Dependabot)
 	•	Secure headers (Helmet equivalent), CORS restrictions
-￼ 10 “LARGE”
 PCI DSS Compliance Scope 🛡️
+￼
 	•	Payment data never stored in raw form
 	•	Tokenization via certified payment gateways
 	•	Network segmentation (separate VPC for payment service)
 	•	Encryption in transit (TLS 1.3) and at rest (PostgreSQL TDE)
 	•	Regular vulnerability scans & penetration testing
-￼ 8 “LARGE”
 
 🏃 Getting Started
 # Clone the repository
@@ -105,6 +104,6 @@ Detailed setup instructions per service are in individual READMEs.
 	•	Full CQRS with Event Sourcing
 
 Built with passion for scalable, secure retail solutions.
-
 ✨ Contributions welcome – let’s modernize POS together! ✨
 ￼ ￼ ￼ ￼ ￼
+vulnerability scans
