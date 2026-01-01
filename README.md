@@ -1,4 +1,5 @@
 🛒 Point of Sale (POS) Transaction Portal
+
 A Modern, Scalable Microservices Architecture Built on .NET 8
 ￼ 0 “LARGE”
 ￼ 3 “LARGE”
@@ -104,5 +105,6 @@ Detailed setup instructions per service are in individual READMEs.
 	•	Full CQRS with Event Sourcing
 
 Built with passion for scalable, secure retail solutions.
+
 ✨ Contributions welcome – let’s modernize POS together! ✨
 ￼ ￼ ￼ ￼ ￼
